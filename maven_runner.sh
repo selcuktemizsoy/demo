@@ -9,7 +9,7 @@ if [[ $? -ne 0 ]] ; then
   echo "Exiting with code 1."
   exit 1
 else
-  echo "FINISH: All tests passed!"
+  echo "FINISH: All tests passed!  "
   echo "Exiting with code 0."
   exit 0
 fi
