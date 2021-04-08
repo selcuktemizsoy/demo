@@ -9,3 +9,6 @@ Feature: OAuth Endpoint - Successful Authentication
     Then status 200
     And     def accessToken = $.access_token
     *     print accessToken
+
+
+
